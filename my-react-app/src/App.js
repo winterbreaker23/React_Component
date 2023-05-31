@@ -21,8 +21,10 @@ function App() {
     </div>
   );
 }
-function exp() {
+function exp1() {
   return <h2>Hi, I am a Car!</h2>;
 }
-
-export default exp;
+function exp2(props){
+  return <h2>I am a {props.color} Car!</h2>
+}
+export default exp2;
