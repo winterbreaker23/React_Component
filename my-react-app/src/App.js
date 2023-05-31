@@ -21,5 +21,8 @@ function App() {
     </div>
   );
 }
+function exp() {
+  return <h2>Hi, I am a Car!</h2>;
+}
 
-export default App;
+export default exp;
