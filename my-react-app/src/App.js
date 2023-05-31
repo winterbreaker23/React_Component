@@ -22,9 +22,18 @@ function App() {
   );
 }
 function exp1() {
-  return <h2>Hi, I am a Car!</h2>;
+  return <h3>Hi, I am a Car!</h3>;
 }
 function exp2(props){
   return <h2>I am a {props.color} Car!</h2>
 }
-export default exp2;
+
+function exp3(){
+  return(
+    <>
+      <h1>Who lives in my Garage??</h1>
+      <exp1/>
+    </>
+  );
+}
+export default exp3;
